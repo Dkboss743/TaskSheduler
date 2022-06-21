@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+Assignment Task Sheduler
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Divyash Kumar
+ECE
+IIITDM JABALPUR
+9971385144
+![Screenshot](https://github.com/Dkboss743/TaskSheduler/blob/master/src/pics/Screenshot%20from%202022-06-21%2020-01-08.png)
 
-## Available Scripts
 
-In the project directory, you can run:
+    • Implemented Using Modern React used UseReducer and UseState for state mangement
+    • toogle the form using State Management
+    • Used Firebase Hosting
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Screenshot](https://github.com/Dkboss743/TaskSheduler/blob/master/src/pics/Screenshot%20from%202022-06-21%2020-04-14.png)
+      
+Form Can Be Toggled Using Add Task and X.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Screenshot](https://github.com/Dkboss743/TaskSheduler/blob/master/src/pics/Screenshot%20from%202022-06-21%2020-04-29.png)
 
-### `npm run build`
+If A Task Exists It Will alert the user.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Project Has been divided mainly into components, resources , store.
+Components: 
+    1. Calendar head
+    2. events – (New Task , Blocks )
+    3. form
+    4. UI 
+    • Calendar head contains the upper part of task sheduler i.e(Timeline) 
+    • 
+    • Events contain the the blocks and the new Task to be added
+    • 
+    • Form is for taking input and the storing in context in React
+    • 
+    • UI contains The wrapper for whole Calendar
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Store:
+            used Reducer to store the state of tasks.
+FireBase:
+           hosted of FireBase on -   https://task-sheduler.web.app/
+ 
+Available of Github   -  https://github.com/Dkboss743/TaskSheduler
+    
