@@ -23,7 +23,18 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.showmainForm {
+  position: absolute;
+  width: 8rem;
+  bottom: 50vh;
+  transform: translateY(50%) rotate(-90deg);
+  left: -3rem;
+  padding: 1rem;
+  background-color: #ffafaf;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
 .App-link {
   color: #61dafb;
 }

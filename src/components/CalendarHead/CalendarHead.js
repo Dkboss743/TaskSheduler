@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./CalendarHead.module.css";
 import Blocks from "../events/Blocks/Blocks";
+import Form from "../form/Form";
 let date = 10;
 const daysOfTheWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 // const blocks = (
