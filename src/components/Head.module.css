@@ -1,0 +1,48 @@
+.main-head {
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: row;
+}
+.mainWeek {
+  margin-left: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.icons {
+  height: 1rem;
+  width: 1rem;
+}
+.week {
+  height: 2.5rem;
+  display: flex;
+  margin: 1rem;
+  margin-top: 1.3rem;
+  border: 1px solid rgba(128, 128, 128, 0.247);
+  border-radius: 0.4rem;
+}
+.week img {
+  display: inline-block;
+  padding: 0.8rem;
+}
+.week small {
+  padding: 0.8rem 0 0.8rem 0;
+  text-align: center;
+}
+.dates p {
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+.navs img {
+  border: 1px solid rgba(128, 128, 128, 0.247);
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+}
+.navBtn {
+  display: inline-block;
+  margin: 1.6rem 0.1rem 1.6rem 0.1rem;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  background-color: #fff;
+}

@@ -1,0 +1,22 @@
+.blockMain {
+  list-style: none;
+  height: 40rem;
+
+  display: grid;
+  margin-left: 2rem;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  /* padding-left: 0; */
+}
+.blocks {
+  border: 1px solid #dadada;
+  box-shadow: 0 0 0 1px #dadada;
+}
+.blockMain li:first-child {
+  border-left: none;
+  box-shadow: 0 0 1px 0px #dadada;
+}
+.blockMain li:nth-child(7n + 1) {
+  border-left: none;
+  box-shadow: 0 0 1px 0px #dadada;
+}

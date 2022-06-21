@@ -1,0 +1,15 @@
+.weekdayHead {
+  display: grid;
+  justify-items: center;
+  margin-left: 2rem;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+}
+.weekdayHead li {
+  list-style: none;
+  justify-content: center;
+  padding: 1rem;
+  font-weight: bold;
+  color: rgb(85, 84, 84);
+  width: 2rem;
+}
