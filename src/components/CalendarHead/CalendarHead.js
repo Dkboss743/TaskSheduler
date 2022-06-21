@@ -4,13 +4,7 @@ import Blocks from "../events/Blocks/Blocks";
 import Form from "../form/Form";
 let date = 10;
 const daysOfTheWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-// const blocks = (
-//   <ul className={styles.blockMain}>
-//     {daysOfTheWeek.map((day) => {
-//       return <li className={styles.blocks}></li>;
-//     })}
-//   </ul>
-// );
+
 const weekdayHead = (
   <ul className={styles.weekdayHead}>
     {daysOfTheWeek.map((day) => {

@@ -24,6 +24,9 @@
   display: inline-block;
   padding: 0.8rem;
 }
+.week img:last-child {
+  margin-left: auto;
+}
 .week small {
   padding: 0.8rem 0 0.8rem 0;
   text-align: center;
