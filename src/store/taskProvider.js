@@ -19,7 +19,6 @@ const taskReduer = (state, action) => {
     const findIndex = state.tasks[action.item.day].findIndex(
       (cur) => cur.id === action.item.id
     );
-    console.log(findIndex);
 
     if (findIndex == -1) {
       updatedTasks[action.item.day].push({
